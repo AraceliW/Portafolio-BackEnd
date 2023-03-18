@@ -5,6 +5,7 @@ import com.portfolio.springboot.Entity.Persona;
 import com.portfolio.springboot.Interface.IPersonaService;
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -21,12 +22,15 @@ public class PersonaController {
     
     //Implementando los metodos creados
     @Autowired IPersonaService ipersonaService;
+    
     @GetMapping("/personas/traer")
     public List<Persona> getPersona(){
         return ipersonaService.getPersona();
     }
+   
     
-    
+    //CRUD
+    @PreAuthorize("hasRole('ADMIN')")
     @PostMapping("/personas/crear")
     public String createPersona(@RequestBody Persona persona){
         ipersonaService.savePersona(persona);
@@ -34,6 +38,7 @@ public class PersonaController {
     }
 
     
+    @PreAuthorize("hasRole('ADMIN')")
     @DeleteMapping("/personas/borrar/{id}")
     public String deletePersona(@PathVariable Long id){
       ipersonaService.deletepersona(id);
@@ -41,6 +46,7 @@ public class PersonaController {
     }
     
     
+    @PreAuthorize("hasRole('ADMIN')")
     @PutMapping("/personas/editar/{id}")
     public Persona  editPersona(@PathVariable Long id,
                                 @RequestParam("persona_nombre") String nuevoNombre,
