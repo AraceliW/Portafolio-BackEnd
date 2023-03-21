@@ -16,6 +16,11 @@ public class Educacion {
     private String imgEducacion;
     private int startEducacion;
     private int endEducacion;
+
+    
+    public Educacion() {
+    }
+    
     
 
     public Educacion(String nombreEducacion, String establecimiento, String imgEducacion, int startEducacion, int endEducacion) {
