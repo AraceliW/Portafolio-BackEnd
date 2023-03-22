@@ -1,49 +1,40 @@
-package com.portfolio.springboot.Entity;
+package com.portfolio.springboot.Dto;
 
 import jakarta.persistence.Column;
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
+import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.Size;
 
 
-@Entity
-public class Persona {
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int id;
+public class dtoPersona {
+    @NotBlank
     private String nombrePersona;
-    private String apellidoPersona; 
+    @NotBlank
+    private String apellidoPersona;
+    @NotBlank
     private String tituloPersona;
+    @NotBlank
     private String imgPersona;
     @Size(max=1000)
     @Column(length=1000)
     private String descripcionPersona;
 
     
-    public Persona() {
+    
+    public dtoPersona() {
     }
     
+    
 
-    public Persona(String nombrePersona, String apellidoPersona, String tituloPersona, String imgPersona, String descripcionPersona) {
+    public dtoPersona(String nombrePersona, String apellidoPersona, String tituloPersona, String imgPersona, String descripcionPersona) {
         this.nombrePersona = nombrePersona;
         this.apellidoPersona = apellidoPersona;
         this.tituloPersona = tituloPersona;
         this.imgPersona = imgPersona;
         this.descripcionPersona = descripcionPersona;
     }
-
     
     
     
-    public int getId() {
-        return id;
-    }
-
-    public void setId(int id) {
-        this.id = id;
-    }
 
     public String getNombrePersona() {
         return nombrePersona;
@@ -84,6 +75,8 @@ public class Persona {
     public void setDescripcionPersona(String descripcionPersona) {
         this.descripcionPersona = descripcionPersona;
     }
+    
 
-   
+    
+    
 }
