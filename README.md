@@ -9,17 +9,18 @@ El objetivo de este proyecto es crear un portafolio web que muestre mis datos pe
 La aplicación se basa en una arquitectura distribuida y cuenta con un diseño de interfaz de usuario intuitivo que facilita la navegación y la presentación de información clara. Además, se implementa una base de datos para almacenar los datos y se utiliza las API's necesarias para proveer información a través de internet.
 
 
-## BACK END 💻
+## 💻 BACK END 
 Este repositorio contiene la capa back-end de mi portafolio de mi trabajo final para #YoProgramo.
 
-## FRONT END 🎨
+## 🎨 FRONT END
 Puedes ver el repositorio del front-end en el siguiente enlace: https://github.com/AraceliW/Portafolio-FrontEnd
 
 
-## DIAGRAMA ENTIDAD-RELACION
-Aqui me falta agregar la imagen Del der xd
+## 💡 DIAGRAMA ENTIDAD-RELACION
+En este diagrama se muestra la estructura de la base de datos utilizada en mi proyecto, incluyendo las tablas, relaciones y atributos de cada entidad.
 
-## REQUISITOS PREVIOS 📋
+
+## 📋 REQUISITOS PREVIOS
 - Java Development Kit (JDK) 17.0.6 instalado en el sistema.
 - Maven instalado en el sistema para gestionar las dependencias y construir el proyecto.
 - MySQL instalado en el sistema como base de datos para la persistencia de los datos.
@@ -30,7 +31,7 @@ Aqui me falta agregar la imagen Del der xd
 Las pruebas se realizaron utilizando Postman para garantizar la funcionalidad y seguridad de la aplicación
 
 
-## TECNOLOGIAS USADAS 🔍
+## 🔍 TECNOLOGIAS USADAS
 API Rest creada utilizando las tecnologías Java + Spring Boot bajo el modelo MVC para la lógica y MySQL para persistencia de datos. Entre ellas:
 Tecnologías utilizadas:
 - Java Development Kit (JDK) 17.0.6
@@ -49,7 +50,7 @@ Tecnologías utilizadas:
 Nota: Todas las versiones de las tecnologías utilizadas corresponden a la fecha de marzo de 2023. Algunas versiones fueron instaladas a través de Spring Initializr por lo que no se especifican en el archivo pom.xml.
 
 
-## FUNCIONALIDADES
+## 🔧 FUNCIONALIDADES
 - Registro y autenticación de usuarios: el sistema permite que los usuarios se registren y autentiquen en la plataforma para acceder a su perfil y a funcionalidades específicas.
 - Gestión de información personal: el usuario puede agregar, editar y eliminar información sobre sí mismo en su perfil, como su nombre completo, foto de perfil, correo electrónico, número de teléfono, ubicación, entre otros.
 - Gestión de experiencia laboral: el usuario puede agregar, editar y eliminar información sobre su experiencia laboral en su perfil, incluyendo empresa, cargo, descripción, fecha de inicio y finalización, etc.
@@ -60,8 +61,7 @@ Nota: Todas las versiones de las tecnologías utilizadas corresponden a la fecha
 
 
 
-## INSTRUCCIONES DE USO 🚀
-### Usarlo
+## 🚀 INSTRUCCIONES DE USO 🚀
 - Clona este repositorio: 
     `git clone https://github.com/AraceliW/Portafolio-BackEnd`
 - Instala las dependencias de maven: 
@@ -71,7 +71,7 @@ Nota: Todas las versiones de las tecnologías utilizadas corresponden a la fecha
 
 
 
-### ESTADO  🚧
+### 🚧 ESTADO
 Actualmente, este proyecto se encuentra en proceso de desarrollo y se irá actualizando conforme se agreguen nuevas funcionalidades y mejoras. 🔜
 
 
