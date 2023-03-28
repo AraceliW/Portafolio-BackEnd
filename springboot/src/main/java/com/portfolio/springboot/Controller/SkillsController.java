@@ -44,7 +44,8 @@ public class SkillsController {
         }
 
         Skills skill = new Skills(
-                dtosk.getNombreSkill()
+                dtosk.getNombreSkill(),
+                dtosk.getPorcentajeSkillS()
         );
 
         sSkills.save(skill);
@@ -67,6 +68,7 @@ public class SkillsController {
         
         Skills skill = sSkills.getOne(id).get();
         skill.setNombreSkill(dtosk.getNombreSkill());
+        skill.setPorcentajeSkillS(dtosk.getPorcentajeSkillS());
         
         sSkills.save(skill);
         
