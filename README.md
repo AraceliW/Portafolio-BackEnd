@@ -18,6 +18,8 @@ Puedes ver el repositorio del front-end en el siguiente enlace: https://github.c
 
 ## 💡 DIAGRAMA ENTIDAD-RELACION
 En este diagrama se muestra la estructura de la base de datos utilizada en mi proyecto, incluyendo las tablas, relaciones y atributos de cada entidad.
+![texto alternativo](https://drive.google.com/uc?export=download&id=1UhZzhM0GeXvlESCACB5X1tVVfejbTFyb)
+
 
 
 ## 📋 REQUISITOS PREVIOS
