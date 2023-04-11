@@ -53,7 +53,7 @@ Nota: Todas las versiones de las tecnologías utilizadas corresponden a la fecha
 
 
 ## 🔧 FUNCIONALIDADES
-- Registro y autenticación de usuarios: el sistema permite que los usuarios se registren y autentiquen en la plataforma para acceder a su perfil y a funcionalidades específicas.
+- El sistema permite que el usuario se registre y autentique en la plataforma para acceder a las funcionalidades de edicion.
 - Gestión de información personal: el usuario puede agregar, editar y eliminar información sobre sí mismo en su perfil, como su nombre completo, foto de perfil, correo electrónico, número de teléfono, ubicación, entre otros.
 - Gestión de experiencia laboral: el usuario puede agregar, editar y eliminar información sobre su experiencia laboral en su perfil, incluyendo empresa, cargo, descripción, fecha de inicio y finalización, etc.
 - Gestión de estudios: el usuario puede agregar, editar y eliminar información sobre sus estudios y certificaciones en su perfil, incluyendo nivel de estudios, institución, fecha de inicio y finalización, etc.
