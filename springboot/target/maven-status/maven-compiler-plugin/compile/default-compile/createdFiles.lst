@@ -52,3 +52,4 @@ com\portfolio\springboot\Security\Dto\LoginUsuario.class
 com\portfolio\springboot\Security\Service\RolService.class
 com\portfolio\springboot\Repository\HeaderRepository.class
 com\portfolio\springboot\Service\SkillhService.class
+com\portfolio\springboot\WebConfig.class
